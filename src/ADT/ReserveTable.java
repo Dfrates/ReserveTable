@@ -11,11 +11,12 @@ public class ReserveTable {
     private final int maxSize;
 
     // LinkedHashMap is used to preserve the order of the entries
-    private final Map<String, Integer> reserveTable = new LinkedHashMap<>();
+    private final Map<String, Integer> reserveTable;
 
     // constructor for Reserve Table
     public ReserveTable(int size) {
         maxSize = size;
+        reserveTable = new LinkedHashMap<>(maxSize);
     }
 
     // adds a name and code to the table
@@ -25,7 +26,7 @@ public class ReserveTable {
         // checks if the table is full
         if(reserveTable.size() >= maxSize) {
             System.out.printf("Reached max size of %d\n", maxSize);
-            System.out.printf("Unable to add item: {\"%s\", %d}\n",name, code);
+            System.out.printf("Unable to add item: {\"%s\", %d}\n", name, code);
             return -1;
         }
 
