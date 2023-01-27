@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FRATES_HW1">
+    <output-path>$PROJECT_DIR$/out/artifacts/FRATES_HW1</output-path>
+    <root id="archive" name="FRATES_HW1.jar">
+      <element id="module-output" name="frates_hw1" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

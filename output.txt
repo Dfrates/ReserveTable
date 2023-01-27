@@ -1,0 +1,13 @@
+dfrates@Daniels-MacBook-Pro FRATES_HW1 % java -jar "FRATES_HW1.jar" ReserveHW1.txt
+Daniel Frates CS4100 Homework 1, Spring 2023
+The Code for 'over' is 8
+The Code for 'DOG' is 5
+The Code for 'Cat' is 15
+The Code for 'gone' is -1
+
+The Name for 11 is APPLE
+The Name for 5 is Dog
+The Name for 8 is Over
+The Name for 28 is
+Saving Printed Table to ReserveHW1.txt
+dfrates@Daniels-MacBook-Pro FRATES_HW1 %
