@@ -23,8 +23,9 @@ public class ReserveTable {
         int index;
 
         // checks if the table is full
-        if(reserveTable.size() > maxSize) {
+        if(reserveTable.size() >= maxSize) {
             System.out.printf("Reached max size of %d\n", maxSize);
+            System.out.printf("Unable to add item: {\"%s\", %d}\n",name, code);
             return -1;
         }
 

@@ -8,7 +8,7 @@ public class main {
     public static void main(String[] args) {
         // Create the table
         System.out.println("Daniel Frates CS4100 Homework 1, Spring 2023");
-        ReserveTable reserve = new ReserveTable(25);
+        ReserveTable reserve = new ReserveTable(5);
 
         // Add to the table
         reserve.Add("cat", 15);
